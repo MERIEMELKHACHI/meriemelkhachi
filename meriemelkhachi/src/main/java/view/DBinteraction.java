@@ -13,7 +13,7 @@ public class DBinteraction{
 	 String url;
 	 public DBinteraction() {
 		 try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			url= "jdbc:mysql://localhost:3306/elkhachimeriem";
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
